@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* mapboxTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mapboxTestTests.m */; };
-		0742F83EF9CCD0397077B8AD /* Pods_mapboxTest_mapboxTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068D1A60D4C315AE9230FBED /* Pods_mapboxTest_mapboxTestTests.framework */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		5D48BDC7D0B0489A15F6E377 /* Pods_mapboxTest_mapboxTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97523642158971764B4B26C1 /* Pods_mapboxTest_mapboxTestTests.framework */; };
 		5E87D596265260F600158E7F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E87D595265260F600158E7F /* File.swift */; };
-		71D7BD43834F63176AF1A49A /* Pods_mapboxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48CEE2DE317B4ECEBBA52B2 /* Pods_mapboxTest.framework */; };
+		5E99FE3A2656108C00BAEFA0 /* Pods_mapboxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E99FE392656108C00BAEFA0 /* Pods_mapboxTest.framework */; };
+		5E99FE3B2656108C00BAEFA0 /* Pods_mapboxTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5E99FE392656108C00BAEFA0 /* Pods_mapboxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -27,26 +28,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5E99FE3C2656108C00BAEFA0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5E99FE3B2656108C00BAEFA0 /* Pods_mapboxTest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* mapboxTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapboxTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* mapboxTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapboxTestTests.m; sourceTree = "<group>"; };
-		068D1A60D4C315AE9230FBED /* Pods_mapboxTest_mapboxTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mapboxTest_mapboxTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* mapboxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapboxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mapboxTest/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = mapboxTest/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mapboxTest/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mapboxTest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mapboxTest/main.m; sourceTree = "<group>"; };
-		23B2B449AC00972258673212 /* Pods-mapboxTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxTest.debug.xcconfig"; path = "Target Support Files/Pods-mapboxTest/Pods-mapboxTest.debug.xcconfig"; sourceTree = "<group>"; };
+		143FE1FE44917CD4C6337FC2 /* Pods-mapboxTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxTest.debug.xcconfig"; path = "Target Support Files/Pods-mapboxTest/Pods-mapboxTest.debug.xcconfig"; sourceTree = "<group>"; };
 		5E87D594265260F600158E7F /* mapboxTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mapboxTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		5E87D595265260F600158E7F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		75760EF101F64B11329D6684 /* Pods-mapboxTest-mapboxTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxTest-mapboxTestTests.release.xcconfig"; path = "Target Support Files/Pods-mapboxTest-mapboxTestTests/Pods-mapboxTest-mapboxTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E99FE392656108C00BAEFA0 /* Pods_mapboxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_mapboxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1A18F8ECD8C7608ABE7EB5 /* Pods-mapboxTest-mapboxTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxTest-mapboxTestTests.debug.xcconfig"; path = "Target Support Files/Pods-mapboxTest-mapboxTestTests/Pods-mapboxTest-mapboxTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mapboxTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		954D214AB6772A05B3D1FC44 /* Pods-mapboxTest-mapboxTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxTest-mapboxTestTests.debug.xcconfig"; path = "Target Support Files/Pods-mapboxTest-mapboxTestTests/Pods-mapboxTest-mapboxTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A48CEE2DE317B4ECEBBA52B2 /* Pods_mapboxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mapboxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF96181798947CD93378ED43 /* Pods-mapboxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxTest.release.xcconfig"; path = "Target Support Files/Pods-mapboxTest/Pods-mapboxTest.release.xcconfig"; sourceTree = "<group>"; };
+		97523642158971764B4B26C1 /* Pods_mapboxTest_mapboxTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mapboxTest_mapboxTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B236EB18499DD560CCAC941D /* Pods-mapboxTest-mapboxTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxTest-mapboxTestTests.release.xcconfig"; path = "Target Support Files/Pods-mapboxTest-mapboxTestTests/Pods-mapboxTest-mapboxTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FB1368DF8CD97145EA5B4CC9 /* Pods-mapboxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxTest.release.xcconfig"; path = "Target Support Files/Pods-mapboxTest/Pods-mapboxTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0742F83EF9CCD0397077B8AD /* Pods_mapboxTest_mapboxTestTests.framework in Frameworks */,
+				5D48BDC7D0B0489A15F6E377 /* Pods_mapboxTest_mapboxTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71D7BD43834F63176AF1A49A /* Pods_mapboxTest.framework in Frameworks */,
+				5E99FE3A2656108C00BAEFA0 /* Pods_mapboxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,9 +119,9 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E99FE392656108C00BAEFA0 /* Pods_mapboxTest.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				A48CEE2DE317B4ECEBBA52B2 /* Pods_mapboxTest.framework */,
-				068D1A60D4C315AE9230FBED /* Pods_mapboxTest_mapboxTestTests.framework */,
+				97523642158971764B4B26C1 /* Pods_mapboxTest_mapboxTestTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,10 +129,10 @@
 		50FBBA76EDFB0D48909A4686 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				23B2B449AC00972258673212 /* Pods-mapboxTest.debug.xcconfig */,
-				DF96181798947CD93378ED43 /* Pods-mapboxTest.release.xcconfig */,
-				954D214AB6772A05B3D1FC44 /* Pods-mapboxTest-mapboxTestTests.debug.xcconfig */,
-				75760EF101F64B11329D6684 /* Pods-mapboxTest-mapboxTestTests.release.xcconfig */,
+				143FE1FE44917CD4C6337FC2 /* Pods-mapboxTest.debug.xcconfig */,
+				FB1368DF8CD97145EA5B4CC9 /* Pods-mapboxTest.release.xcconfig */,
+				7E1A18F8ECD8C7608ABE7EB5 /* Pods-mapboxTest-mapboxTestTests.debug.xcconfig */,
+				B236EB18499DD560CCAC941D /* Pods-mapboxTest-mapboxTestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -160,11 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mapboxTestTests" */;
 			buildPhases = (
-				56D0B04EB6D7B0EF840B9986 /* [CP] Check Pods Manifest.lock */,
+				9A71C264A6AC8431F9F85497 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				FC765EF48D3DA00D3D674C28 /* [CP] Embed Pods Frameworks */,
+				708E95A6FC34646249849454 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,13 +195,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mapboxTest" */;
 			buildPhases = (
-				F2D5CC35F362AC654881A0D4 /* [CP] Check Pods Manifest.lock */,
+				83E3892905FC5DCBC8BFAA4D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				CF72AC4428EDB25E94092BF6 /* [CP] Embed Pods Frameworks */,
+				11B0C99F67EE60F4F3403D18 /* [CP] Embed Pods Frameworks */,
+				5E99FE3C2656108C00BAEFA0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -267,29 +283,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		56D0B04EB6D7B0EF840B9986 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mapboxTest-mapboxTestTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CF72AC4428EDB25E94092BF6 /* [CP] Embed Pods Frameworks */ = {
+		11B0C99F67EE60F4F3403D18 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,7 +300,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mapboxTest/Pods-mapboxTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F2D5CC35F362AC654881A0D4 /* [CP] Check Pods Manifest.lock */ = {
+		708E95A6FC34646249849454 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mapboxTest-mapboxTestTests/Pods-mapboxTest-mapboxTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mapboxTest-mapboxTestTests/Pods-mapboxTest-mapboxTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mapboxTest-mapboxTestTests/Pods-mapboxTest-mapboxTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83E3892905FC5DCBC8BFAA4D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,21 +339,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FC765EF48D3DA00D3D674C28 /* [CP] Embed Pods Frameworks */ = {
+		9A71C264A6AC8431F9F85497 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mapboxTest-mapboxTestTests/Pods-mapboxTest-mapboxTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mapboxTest-mapboxTestTests/Pods-mapboxTest-mapboxTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mapboxTest-mapboxTestTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mapboxTest-mapboxTestTests/Pods-mapboxTest-mapboxTestTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -398,7 +414,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 954D214AB6772A05B3D1FC44 /* Pods-mapboxTest-mapboxTestTests.debug.xcconfig */;
+			baseConfigurationReference = 7E1A18F8ECD8C7608ABE7EB5 /* Pods-mapboxTest-mapboxTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -426,7 +442,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75760EF101F64B11329D6684 /* Pods-mapboxTest-mapboxTestTests.release.xcconfig */;
+			baseConfigurationReference = B236EB18499DD560CCAC941D /* Pods-mapboxTest-mapboxTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -451,11 +467,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23B2B449AC00972258673212 /* Pods-mapboxTest.debug.xcconfig */;
+			baseConfigurationReference = 143FE1FE44917CD4C6337FC2 /* Pods-mapboxTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4TS88K9HKJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = mapboxTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,11 +495,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF96181798947CD93378ED43 /* Pods-mapboxTest.release.xcconfig */;
+			baseConfigurationReference = FB1368DF8CD97145EA5B4CC9 /* Pods-mapboxTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4TS88K9HKJ;
 				INFOPLIST_FILE = mapboxTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
